@@ -1,6 +1,6 @@
 ##This is a React-Redux application to view repositories of an organization and its associated commits on Github.##
 
-#####Setup
+##Setup##
 Installing dependencies standing at the root folder:
 npm run installdep
 
