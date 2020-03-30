@@ -14,8 +14,8 @@ export const setSortDirection = (sortDirection) => {
 };
 
 const initialState = {
-    orderCategory: "name",
-    sortDirection: "asc"
+    orderCategory: "forks",
+    sortDirection: "desc"
 };
 
 export const repoReducer = (state = initialState, action) => {

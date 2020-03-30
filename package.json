@@ -1,5 +1,5 @@
 {
-  "name": "todo-app",
+  "name": "repo-viewer-app",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,7 +7,8 @@
     "test": "jest --config src/jest.config.js",
     "build": "webpack --mode development",
     "installdep": "npm i",
-    "start": "webpack --mode development && webpack-dev-server"
+    "start": "webpack --mode development && webpack-dev-server",
+    "start:application": "npm i && webpack --mode development && webpack-dev-server"
   },
   "author": "",
   "license": "ISC",

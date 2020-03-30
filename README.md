@@ -1,13 +1,15 @@
 ##This is a React-Redux application to view repositories of an organization and its associated commits on Github.##
 
-##Setup##
-Installing dependencies standing at the root folder:
-npm run installdep
+#Setup
 
-#To build run the application:
-npm run start
+Pre-Requisites : Node
 
-The application deploys on port 3100
+To bring up the application:
+
+npm run start:application
+
+The command installs dependencies, builds the application and deploys on port 3100
+
 
 #To view the application on a browser:
 http://localhost:3100/
@@ -17,6 +19,8 @@ and go to that path/port on the browser.
 
 #To run Unit Tests using Jest:
 npm run test
+
+
 
 ##Overview:##
 
@@ -29,7 +33,7 @@ When the user enters the name of an Organization, the input is validated agains 
 
 If the pattern matches and there exists an organization on Github with the entered name,
 The table Shows information about the repositories for the matched Organization.
-By default the response is sorted by name in ascending order
+By default the response is sorted by forks(popularity) in descending order
 
 If the entered Organization name does not match a repository, an empty table is shown.
 

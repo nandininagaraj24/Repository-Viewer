@@ -15,16 +15,19 @@ const GetTableControls = (props) => {
         props.setSortDirection(e.target.value);
     };
 
+    const direction = props.sortDirection;
+    const category = props.orderCategory;
+
     return (<div className="table-controls">
         <div>View By</div>
-        <select onChange={setCategory}>
+        <select value={category} onChange={setCategory}>
             <option value="name">Name</option>
             <option value="forks">Popularity</option>
             <option value="language">Language</option>
             <option value="openissues">Open Issues</option>
             <option value="updatedat">Updated At</option>
         </select>
-        <select onChange={setDirection}>
+        <select value={direction} onChange={setDirection}>
             <option value="asc">Ascending</option>
             <option value="desc">Descending</option>
         </select>
