@@ -1,6 +1,6 @@
 ##This is a React-Redux application to view repositories of an organization and its associated commits on Github.##
 
-#Setup
+#####Setup
 Installing dependencies standing at the root folder:
 npm run installdep
 
@@ -18,14 +18,16 @@ and go to that path/port on the browser.
 #To run Unit Tests using Jest:
 npm run test
 
-Overview:
+##Overview:##
 
 The landing screen:
 It is an Empty State screen which has some help text for the user in order to begin.
 There is a search bar where user can enter the name of an Organization to view more details
 
 The Repo screen:
-When the user enters a name of an Organization, if there is such an organization on Github,
+When the user enters the name of an Organization, the input is validated agains a pattern. The repo name can have Alhabets, numbers, Space, Special characters - _ with a max length of 50
+
+If the pattern matches and there exists an organization on Github with the entered name,
 The table Shows information about the repositories for the matched Organization.
 By default the response is sorted by name in ascending order
 
