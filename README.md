@@ -1,4 +1,4 @@
-#This is a React-Redux application to view repositories of an organization and its associated commits on Github.
+##This is a React-Redux application to view repositories of an organization and its associated commits on Github.##
 
 #Setup
 Installing dependencies standing at the root folder:
