@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CheckboxWithLabel changes the text after click 1`] = `
+<div
+  className="empty-state"
+>
+  <img
+    alt="Logo"
+    height="300"
+    src=""
+    width="600"
+  />
+  <div
+    className="empty-state-text"
+  >
+     NO RESULTS 
+  </div>
+  <div
+    className="empty-state-text"
+  >
+    Search for the name of an organization to view repositories and commits on GitHub 
+    <i
+      className="fab fa-github"
+    />
+  </div>
+</div>
+`;
